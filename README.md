@@ -63,12 +63,15 @@ The system utilizes a **Finite State Machine (FSM)** to manage a multi-stage mis
 To ensure computational efficiency, the system implements a **Node Activation Logic**, where the central controller dynamically toggles perception and control nodes ON or OFF depending on the current mission phase (e.g., disabling the front camera neural network while reversing).
 
 <!-- <img src="images/Mission_Flowchart.png" alt="FSM Logic Flowchart"/> -->
-
 ### Video:
+<div align="center">
 
-[![MAE 148 - Team 14 Demo](http://img.youtube.com/vi/VivayishKWo/0.jpg)](https://www.youtube.com/watch?v=VivayishKWo)
+  [![MAE 148 - Team 14 Demo](http://img.youtube.com/vi/VivayishKWo/0.jpg)](https://www.youtube.com/watch?v=VivayishKWo)
 
-**Note:** Setup of parts (such as camera position, compute power, and car configuration) can vary from car to car, and tuning may be required to achieve the same effect.
+  <p>
+    <b>Note:</b> Setup of parts (such as camera position, compute power, and car configuration) can vary from car to car, and tuning may be required to achieve the same effect.
+  </p>
+</div>
 
 ### **Key Features**
 - **Dual-Camera Perception:** Utilizes an OAK-D camera for front-facing Neural Network inference and a USB webcam for rear-facing precision alignment.
@@ -89,7 +92,7 @@ To ensure computational efficiency, the system implements a **Node Activation Lo
 | Name              | Major                      | Class       | Links |
 |-------------------|----------------------------|-------------|-------|
 | Kazuya Miyata  | Computer Science    | Class of 2027 | [Linkedin](https://www.linkedin.com/in/kazmiyata/) |
-| Najmi Mohammad Hanis   | Mechanical Engineering       | Class of 2027 | [Linkedin](https://www.linkedin.com/in/najmi-hanis/) |
+| Najmi Mohammad Hanis   | Mechanical Engineering       | Class of 2026 | [Linkedin](https://www.linkedin.com/in/najmi-hanis/) |
 | Yuan Xu  | Mechanical Engineering     | Class of 2027 | [Linkedin](https://www.linkedin.com/in/zack-xu-513509207/) |
 | Daniel Ryan Scuba  | Mechanical Engineering     | Class of 2026 | [Linkedin](https://www.linkedin.com/in/daniel-scuba-/) |
 
