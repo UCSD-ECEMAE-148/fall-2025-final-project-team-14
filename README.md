@@ -94,7 +94,7 @@ To ensure computational efficiency, the system implements a **Node Activation Lo
 | Kazuya Miyata  | Computer Science    | Class of 2027 | [Linkedin](https://www.linkedin.com/in/kazmiyata/) |
 | Najmi Mohammad Hanis   | Mechanical Engineering       | Class of 2026 | [Linkedin](https://www.linkedin.com/in/najmi-hanis/) |
 | Yuan Xu  | Mechanical Engineering     | Class of 2027 | [Linkedin](https://www.linkedin.com/in/zack-xu-513509207/) |
-| Daniel Ryan Scuba  | Mechanical Engineering     | Class of 2026 | [Linkedin](https://www.linkedin.com/in/daniel-scuba-/) |
+| Daniel Scuba  | Mechanical Engineering     | Class of 2026 | [Linkedin](https://www.linkedin.com/in/daniel-scuba-/) |
 
 ---
 
@@ -229,6 +229,7 @@ ros2 launch auto_delivery_pkg mission.launch.py
   <img src="images/Untitled_Artwork 6.jpg" alt="Wiring Diagram" width="2732" height="2048">  
 </p>
 
+
  <!-- TODO HERE  -->
 
 ### Software
@@ -245,6 +246,9 @@ The dataset was labeled using **roboflow** + SAM3's auto labeling:
 Model Usage: 
 
 ![YOLO Model result](images/image.png)
+
+### Project Slides
+[Link to Slides](https://docs.google.com/presentation/d/1kkrjojStIwvq7xBeCKPqe0v9P8Wo5cu7pBSfsbAYjkM/edit?usp=sharing)
 
 ## Acknowledgments
 *Thanks to Professor Jack Silberman and the TAs for their guidance on the UCSD Robocar framework. Special thanks to the creators of the `pupil_apriltags` library.*
