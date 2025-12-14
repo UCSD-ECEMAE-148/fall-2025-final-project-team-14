@@ -224,8 +224,6 @@ ros2 launch auto_delivery_pkg mission.launch.py
   <img src="images/Untitled_Artwork 6.jpg" alt="Wiring Diagram" width="2732" height="2048">  
 </p>
 
-## Project Slides
-[Link to Slides](https://docs.google.com/presentation/d/1kkrjojStIwvq7xBeCKPqe0v9P8Wo5cu7pBSfsbAYjkM/edit?usp=sharing)
 
  <!-- TODO HERE  -->
 
@@ -235,6 +233,9 @@ The system runs on an Pi 5. To manage the high load of running ROS2 alongside Co
 
 #### Neural Network
 We trained a custom YOLOv8 Nano model on a dataset of our specific delivery boxes. This model was compiled into a `.blob` file to run natively on the OAK-D's Myriad X VPU, offloading processing from the PI's main CPU.
+
+### Project Slides
+[Link to Slides](https://docs.google.com/presentation/d/1kkrjojStIwvq7xBeCKPqe0v9P8Wo5cu7pBSfsbAYjkM/edit?usp=sharing)
 
 ## Acknowledgments
 *Thanks to Professor Jack Silberman and the TAs for their guidance on the UCSD Robocar framework. Special thanks to the creators of the `pupil_apriltags` library.*
