@@ -15,7 +15,7 @@
 ### ECE/MAE 148 Final Project
 ### Team 14 - Fall 2025
 <p align="center">
-  <img src="images/IMG_9860.jpg" alt="Team 14 Delivery Bot" width="400" height="400">  </p>
+  <img src="images/IMG_9860.jpg" alt="Team 14 Delivery Bot" width="400" height="540">  </p>
 *Special thanks to the teaching team for their support.*
 </div>
 
@@ -81,6 +81,11 @@ To ensure computational efficiency, the system implements a **Node Activation Lo
 
 ## Team Members
 
+
+<p align="center">
+  <img src="images/IMG_9871.jpg" alt="Team 14 Delivery Bot" width="400" height="540">  
+</p>
+
 | Name              | Major                      | Class       |
 |-------------------|----------------------------|-------------|
 | Kazuya Miyata  | Computer Science    | Class of 2027 |
@@ -145,14 +150,14 @@ The system architecture relies on a central controller managing several speciali
 - **DepthAI:** Pipeline for running Neural Networks on the OAK-D camera.
 - **YOLOv8:** Object detection model trained for container recognition.
 - **Pupil AprilTags:** Library for robust fiducial marker detection.
-- **Docker:** Used to containerize the development environment for the Jetson Nano.
+- **Docker:** Used to containerize the development environment for the PI.
 
 ---
 
 ## **How to Run**
 
 ### **Prerequisites**
-- Nvidia Jetson Nano with UCSD Robocar Docker image installed.
+- PI 5 with UCSD Robocar Docker image installed.
 - **Dependencies:** `depthai>=2.28.0.0` and `pupil-apriltags`.
 - Calibrated VESC and steering servos.
 
@@ -201,10 +206,10 @@ ros2 launch auto_delivery_pkg mission.launch.py
 
 ### Software
 #### Embedded Systems
-The system runs on an Nvidia Jetson Nano. To manage the high load of running ROS2 alongside Computer Vision (CV) pipelines, we implemented a **Node Activation Flow**. This ensures that the heavy YOLO model is only active during the search phase, and the rear camera processing is only active during parking, keeping CPU usage within stable limits.
+The system runs on an Pi 5. To manage the high load of running ROS2 alongside Computer Vision (CV) pipelines, we implemented a **Node Activation Flow**. This ensures that the heavy YOLO model is only active during the search phase, and the rear camera processing is only active during parking, keeping CPU usage within stable limits. We also implemented the AI-hat, to offload some of the april-tag processing workload.
 
 #### Neural Network
-We trained a custom YOLOv8 Nano model on a dataset of our specific delivery boxes. This model was compiled into a `.blob` file to run natively on the OAK-D's Myriad X VPU, offloading processing from the Jetson's main CPU.
+We trained a custom YOLOv8 Nano model on a dataset of our specific delivery boxes. This model was compiled into a `.blob` file to run natively on the OAK-D's Myriad X VPU, offloading processing from the PI's main CPU.
 
 ## Acknowledgments
 *Thanks to Professor Jack Silberman and the TAs for their guidance on the UCSD Robocar framework. Special thanks to the creators of the `pupil_apriltags` library.*
