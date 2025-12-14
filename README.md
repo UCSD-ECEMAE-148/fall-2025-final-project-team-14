@@ -64,11 +64,6 @@ To ensure computational efficiency, the system implements a **Node Activation Lo
 
 <!-- <img src="images/Mission_Flowchart.png" alt="FSM Logic Flowchart"/> -->
 
-The robot hardware diagram is shown below:
-<p align="center">
-  <img src="images/Robot Structure.png" alt="Team 14 Delivery Bot" width="800" height="1080">  
-</p>
-
 ### Video:
 
 [![MAE 148 - Team 14 Demo](http://img.youtube.com/vi/VivayishKWo/0.jpg)](https://www.youtube.com/watch?v=VivayishKWo)
@@ -91,12 +86,12 @@ The robot hardware diagram is shown below:
   <img src="images/IMG_9871.jpg" alt="Team 14 Delivery Bot" width="400" height="540">  
 </p>
 
-| Name              | Major                      | Class       |
-|-------------------|----------------------------|-------------|
-| Kazuya Miyata  | Computer Science    | Class of 2027 |
-| Najmi Mohammad Hanis   | Mechanical Engineering       | Class of 2026 |
-| Yuan Xu  | Mechanical Engineering     | Class of 2027 |
-| Daniel Ryan Scuba  | Mechanical Engineering     | Class of 2026 |
+| Name              | Major                      | Class       | Links |
+|-------------------|----------------------------|-------------|-------|
+| Kazuya Miyata  | Computer Science    | Class of 2027 | [Linkedin](https://www.linkedin.com/in/kazmiyata/) |
+| Najmi Mohammad Hanis   | Mechanical Engineering       | Class of 2027 | [Linkedin](https://www.linkedin.com/in/najmi-hanis/) |
+| Yuan Xu  | Mechanical Engineering     | Class of 2027 | [Linkedin](https://www.linkedin.com/in/zack-xu-513509207/) |
+| Daniel Ryan Scuba  | Mechanical Engineering     | Class of 2026 | [Linkedin](https://www.linkedin.com/in/daniel-scuba-/) |
 
 ---
 
@@ -205,19 +200,7 @@ ros2 launch auto_delivery_pkg mission.launch.py
 
 ## Robot Design
 ### Car Parts
-| Custom Designed Parts | Description | Preview | Designer |
-|--------|-------------|---------|---------|
-| Base Plate | A base plate with universal mounting holes, designed for easy components mounting and wiring.| <img src="images/Screenshot 2025-12-13 194134.png" width="200"/> |Najmi|
-| Right Shell | Right panel of the car shell, with a hole for the power button switch. | <img src="images/Screenshot 2025-12-13 194509.png" width="200"/> |Najmi|
-| Left Shell | Left panel of the car shell. | <img src="images/Screenshot 2025-12-13 194532.png" width="200"/> |Najmi|
-| Front Bumper| A front bumper shaped around functional-industrial aesthetic. | <img src="images/Screenshot 2025-12-13 194331.png" width="200"/> |Najmi|
-| Sensor Platform | A structural platform for GPS antenna and LiDAR that prioritizes clean planes, softened edges, and mounting flexibility. | <img src="images/Screenshot 2025-12-13 194235.png" width="200"/> |Najmi|
-| Shell Assembly | Overall assembly of the outer shell. | <img src="images/Screenshot 2025-12-13 194444.png" width="200"/> |Najmi|
-
-#### Wiring Diagram
-<p align="center">
-  <img src="images/Untitled_Artwork 6.jpg" alt="Wiring Diagram" width="2732" height="2048">  
-</p>
+#### Custom Designed Parts| Part | Description | Designer |
 
  <!-- TODO HERE  -->
 
